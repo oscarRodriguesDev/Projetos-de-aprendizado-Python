@@ -9,10 +9,10 @@ import random,os
 opção = 0
 '''
 Esta função servirá para apresentação da mensagem de erro caso  o
-usuario digite um comando errado
+usuario digite um comando errado, utilizado para envio de msgs
 '''
 def msg():
-    return'opções:\n SAIR- "sair" 1-PEDRA 2-PAPEL 3-TESOURA'
+    return'opções:\n SAIR- "sair" 1-PEDRA 2-PAPEL 3-TESOURA' 
     
 #os.system('cls') #esta opção será usada apenas quando for executado diretamente no terminal
 while not opção=='sair':
