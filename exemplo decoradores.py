@@ -3,7 +3,6 @@
 '''
 este script é capaz de gerar logs de texto para funções que foram decoradas pelo identificador, o log informa 
 os paramentros usados e se a função foi executada com sucesso ou não
-esse é apenas um simples exemplo de como podem ser usados os decoradores
 '''
 
 def identificador(função):
